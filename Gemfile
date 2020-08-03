@@ -10,7 +10,7 @@ elsif RUBY_VERSION =~ /^1/
   # Legacy gem locks for ruby 1.9.x
   gem 'json',           '~> 1.8.3'
   gem 'tins',           '~> 1.6.0'
-  gem 'term-ansicolor', '< 1.4'
+  gem 'term-ansicolor', '<= 1.7.1'
 end
 gem 'i18n', '<= 1.2.0' if RUBY_VERSION < '2.3'
 
